@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { Component } from 'react'
 import './App.css'
 export default class APP extends Component {
@@ -134,3 +135,17 @@ export default class APP extends Component {
     )
   }
 }
+=======
+import './App.css';
+import Page1 from './Page1';
+
+function App() {
+  return (
+    <div className="App">
+      <Page1 />
+    </div>
+  );
+}
+
+export default App;
+>>>>>>> 73b6790bc8e795bf53f3bdd5eebc740225e2c95b
